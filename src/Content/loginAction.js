@@ -15,3 +15,9 @@ export async function LoginSuccessAction(token , data){
         }
     }
 }
+
+export function LogoutAction(){
+    return {
+        type: actionType.LOGOUT,
+    }
+}

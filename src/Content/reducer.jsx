@@ -18,7 +18,7 @@ export function reducer(state, action) {
                 ...state,
                 user: null,
                 token: null,
-                loading: true,
+                loading: false,
                 error: null
             }
 
